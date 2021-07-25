@@ -7,10 +7,14 @@
     <style>
         body {
             background-color: rgb(225, 240, 158);
+            background-size: contain;
+            padding: 5px;
+            margin: 20px;
         }
         
         h1 {
             background-color: rgb(189, 230, 23);
+            box-sizing: content-box;
         }
         
         #content {
@@ -40,240 +44,257 @@
         .asbeza-shiro {
             background-color: rgb(220, 227, 199);
         }
+        
+        .button-overview {
+            text-align: right;
+        }
+        #travel {
+        text-align: right;
+        }
     </style>
 </head>
 
 <body>
-
     <h1 id="top">Habesha's Recipe Book</h1>
+    <p><em><a href="#travel">Travel to Sicily</a></em></p>
+    
+    <!-- ------------------ NAVIGATION SECTION CODES-------------------  -->
+    <div class="navigation">
+        <!--<img class="img-logo" src="https://i.postimg.cc/hhWYRvmX/logo.png" alt="Logo" /> -->
+        <div class="button-overview">
+            <button onclick="window.location.href='#qulwa-siga'">Qulwa</button>
+            <button onclick="window.location.href='#derho'">Tsebhi Derho</button>
+            <button onclick="window.location.href='#shiro'">Tsebhi Shiro</button>
+        </div>
+    </div>
+
+
 
     <p>Habesa refers to both Eritrean and Ethiopian people. Eritrean cuisine shares similarities with surrounding countries' cuisines; however, the cuisine has its unique characteristics.</p>
 
-    <p>The main traditional food in Eritrean cuisine is tsebhi (stew), served with injera (flatbread made from teff, wheat, or sorghum and hilbet (paste made from legumes; mainly lentil and faba beans). A typical traditional Eritrean dish consists of injera
-        accompanied by a spicy stew, which frequently includes beef, goat, lamb or fish.</p>
+    <p>The main traditional food in Eritrean cuisine is tsebhi (stew), served with injera (flatbread made from teff, wheat, or sorghum) and hilbet (paste made from legumes; mainly lentil and faba beans). A typical traditional Eritrean dish consists of injera
+        accompanied by a spicy stew, which frequently includes beef, goat, lamb or fish. Overall, Eritrean cuisine strongly resembles that of neighboring Ethiopia, although Eritrean cooking tends to feature more seafood than Ethiopian cuisine on account
+        of its coastal location. Eritrean dishes are also frequently lighter in texture than Ethiopian meals as they tend to employ less seasoned butter and spices and more tomatoes, as in tsebhi derho.</p>
 
-    <p>Overall, Eritrean cuisine strongly resembles that of neighboring Ethiopia, although Eritrean cooking tends to feature more seafood than Ethiopian cuisine on account of its coastal location.Eritrean dishes are also frequently lighter in texture than
-        Ethiopian meals as they tend to employ less seasoned butter and spices and more tomatoes, as in tsebhi derho.
+    <h2 id="content">Contents</h2>
+    <p> This recipe book contains three of the main dishes of Habesha people.
 
-        <h2 id="content">Contents</h2>
-        <p> This recipe book contains three of the main dishes of Habesha people.
+        <ol>
+            <li><a href="#qulwa-siga">Qulwa</a></li>
+            <li><a href="#derho">Tsebhi Derho</a></li>
+            <li><a href="#shiro">Tsebhi Shiro</a></li>
+        </ol>
 
-            <ol>
-                <li><a href="#Qulwa-siga">Qulwa</a></li>
-                <li><a href="#derho">Tsebhi Derho</a></li>
-                <li><a href="#shiro">Tsebhi Shiro</a></li>
-            </ol>
+        <!--This Recipe of Eritrean traditional cuisine is very fast and easy to prepare -->
 
-            <!--This Recipe of Eritrean traditional cuisine is very fast and easy to prepare -->
+        <h2 id="qulwa-siga"> 1.Qulwa</h2>
+        <p><em><a href="#top">Top</a>, <a href="#derho">Tsebhi Derho</a>, <a href="#shiro">Tsebhi Shiro</a></em></p>
 
-            <h2 id="qulwa-siga"> 1.Qulwa</h2>
-            <p><em><a href="#top">Top</a></em></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tibs_in_Yod_Abyssinia.jpg/440px-Tibs_in_Yod_Abyssinia.jpg" alt="Qulwa served on tsahli with Injera along side on the plate">
+        <ul>
+            <li>Time: 30 minutes</li>
+            <li>Serves: 6 persons</li>
+        </ul>
 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tibs_in_Yod_Abyssinia.jpg/440px-Tibs_in_Yod_Abyssinia.jpg" alt="Qulwa served on tsahli with Injera along side on the plate">
-            <ul>
-                <li>Time: 30 minutes</li>
-                <li>Serves: 6 persons</li>
-            </ul>
+        <p><strong>Ingredients:</strong></p>
 
-            <p><strong>Ingredients:</strong></p>
-
-            <table class="asbeza">
-                <thead>
-                    <tr>
-                        <th>Ingredient</th>
-                        <th>Quantity</th>
-                    </tr>
-                </thead>
+        <table class="asbeza">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
 
 
-                <tbody>
-                    <tr>
-                        <td>Beef</td>
-                        <td>1 kg</td>
-                    </tr>
-                    <tr>
-                        <td>Onion </td>
-                        <td>1 piece</td>
-                    </tr>
-                    <tr>
-                        <td>Oil</td>
-                        <td>1 tablespoon</td>
-                    </tr>
-                    <tr>
-                        <td>Fresh Tomato</td>
-                        <td>1 large piece</td>
-                    </tr>
-                    <tr>
-                        <td>Oregano & Thym</td>
-                        <td>1 teaspoon</td>
-                    </tr>
-                    <tr>
-                        <td>Zucchini</td>
-                        <td>1 piece</td>
-                    </tr>
-                </tbody>
-            </table>
+            <tbody>
+                <tr>
+                    <td>Beef</td>
+                    <td>1 kg</td>
+                </tr>
+                <tr>
+                    <td>Onion </td>
+                    <td>1 piece</td>
+                </tr>
+                <tr>
+                    <td>Oil</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Fresh Tomato</td>
+                    <td>1 large piece</td>
+                </tr>
+                <tr>
+                    <td>Oregano & Thym</td>
+                    <td>1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Zucchini</td>
+                    <td>1 piece</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <p><strong>Preparation Steps</strong></p>
+        <p><strong>Preparation Steps</strong></p>
 
-            <ol>
-                <li>Prepare a bigger pan and place it on a swithched on stove</li>
-                <li>Pour 1 table spoon of <strong>oil </strong>on to the pan</li>
-                <li>When the oil on the pan is heated ,then add the <strong>beef (<em>minced into 1 inch size</em>)</strong> and stir it untill all the beef turned into greyish color.</li>
-                <li>Then add the <strong>diced onion (1 cm size)</strong> and <strong>diced zucchini (1 inch size)</strong> in to the pan and continue stiring to turn over the uncooked sides of the added ingredients. </li>
-                <li>When the added onion and zucchini are also cooked, then add <strong>diced tomato(1 inch size) and the oregano </strong> spice in to the cooking pan and continue stiring to mix the added ingredients.</li>
-                <li>Finally <strong>taste the tenderness of the beef </strong> and if it is good upto your likes then add a pinch of salt for extra taste and take it off the cooking stove and serve it on top of Injera laid on a plate.</li>
+        <ol>
+            <li>Prepare a bigger pan and place it on a swithched on stove</li>
+            <li>Pour 1 table spoon of <strong>oil </strong>on to the pan</li>
+            <li>When the oil on the pan is heated ,then add the <strong>beef (<em>minced into 1 inch size</em>)</strong> and stir it untill all the beef turned into greyish color.</li>
+            <li>Then add the <strong>diced onion (1 cm size)</strong> and <strong>diced zucchini (1 inch size)</strong> in to the pan and continue stiring to turn over the uncooked sides of the added ingredients. </li>
+            <li>When the added onion and zucchini are also cooked, then add <strong>diced tomato(1 inch size) and the oregano </strong> spice in to the cooking pan and continue stiring to mix the added ingredients.</li>
+            <li>Finally <strong>taste the tenderness of the beef </strong> and if it is good upto your likes then add a pinch of salt for extra taste and take it off the cooking stove and serve it on top of Injera laid on a plate.</li>
 
-            </ol>
+        </ol>
 
-            <!--This Recipe of Eritrean traditional cuisine is very special and famous one but it took more than 1 hour to prepare -->
+        <!--This Recipe of Eritrean traditional cuisine is very special and famous one but it took more than 1 hour to prepare -->
 
-            <h2 id="derho">2.Tsebhi Derho</h2>
-            <p><em><a href="#top">Top</a></em></p>
-
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Eritrean_Injera_with_stews.jpg" alt="Tsehi Derho served upon  Injera with other side dishes on a plate">
-            <ul>
-                <li>Time: 90 minutes</li>
-                <li>Serves: 12 persons</li>
-            </ul>
-
-            <p><strong>Ingredients:</strong></p>
-
-            <table class="asbeza-derho">
-                <thead>
-                    <tr>
-                        <th>Ingredient</th>
-                        <th>Quantity</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Whole Chicken</td>
-                        <td>1 piece</td>
-                    </tr>
-                    <tr>
-                        <td>Onion </td>
-                        <td>1 kg</td>
-                    </tr>
-                    <tr>
-                        <td>Oil</td>
-                        <td>2 tablespoon</td>
-                    </tr>
-                    <tr>
-                        <td>Tomato Paste</td>
-                        <td>400 g</td>
-                    </tr>
-                    <tr>
-                        <td>Mixed spices</td>
-                        <td>1 tablespoon</td>
-                    </tr>
-                    <tr>
-                        <td>Habesha Peper powder/Berbere</td>
-                        <td>2 tablespoon</td>
-                    </tr>
-                    <tr>
-                        <td>Habesha Butter/Tesmi</td>
-                        <td>2 tablespoon</td>
-                    </tr>
-                    <tr>
-                        <td>Egg</td>
-                        <td>12 pieces</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <p><strong>Preparation Steps</strong></p>
-
-            <ol>
-                <li>Prepare a bigger pan and place it on a swithched on stove</li>
-                <li>Add <strong> diced onion (1/2 cm size) </strong>into the pan and keep stiring it so that the onion will be cooked in all sides with out getting burnedand.when the onion color turned into grey-yellowish then add the<strong> oil</strong>                    in to the pan and <em>cook it unitl the onion turned into golden color</em>.</li>
-                <li>When the oil and onion are cooked,then add the <strong>habeha peper poweder/Berbere</strong> and keep stiring it untill all the added peper are mixed and become uniform with the ingredients. At this point taste the mix and the added peper
-                    should be of good taste and smell not strong spicy and irritating smell.</li>
-                <li> Then add the<strong> tomato paste</strong> to the pan and stir it ot mixed well with the already cooked ingredients and <em>cook it untill the smell and taste of the tomato paste disappear</em>.</li>
-                <li>When the taste of tomato paste disappears , then added all the <strong>chicken parts (<em>the chicken should be washed and cut in to body part pieces before you put it into the cooking pan</em>) </strong>and stir it to mix it well with
-                    the rest in the pan. Continue stiring the cooking pan so that all the ingredients mixa and cooked well.</li>
-                <li> After a while add the <strong>mixed spices</strong> of Oregano, Blackpeper and Thym in to the cooking pan and continue stiring to mix the added ingredients.</li>
-                <li><strong>After cooking for 1 hour then taste the tenderness of the chicken</strong> and if it is good upto your likes then <strong><em>add a pinch of salt and the habesha butter for extra taste</em></strong>.</li>
-                <li> Add the <strong>boiled eggs </strong>to the cooking pan and <strong><em>let them simmer with the cooked dish for 2 minutes </em></strong>and then take the cooking pan off the electric cooking stove and serve it on top of Injera laid on
-                    a plate.</li>
-            </ol>
-
-            <!--This Recipe of Eritrean traditional cuisine is very fast and easy to prepare -->
-
-            <h2 id="shiro"> 3.Tsebhi Shiro</h2>
-            <p><em><a href="#top">Top</a></em></p>
-
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taita_and_shiro.jpg/500px-Taita_and_shiro.jpg" alt="Shiro served upon injera with green pepper and salad">
-            <ul>
-                <li>Time: 45 minutes</li>
-                <li>Serves: 8 persons</li>
-            </ul>
-
-            <p><strong>Ingredients:</strong></p>
-
-            <table class="asbeza-shiro">
-                <thead>
-                    <tr>
-                        <th>Ingredient</th>
-                        <th>Quantity</th>
-                    </tr>
-                </thead>
+        <h2 id="derho">2.Tsebhi Derho</h2>
+        <p><em><a href="#top">Top</a>, <a href="#qulwa-siga">Qulwa</a>, <a href="#shiro">Tsebhi Shiro</a></em></p>
 
 
-                <tbody>
-                    <tr>
-                        <td>Chickpeas powder/shiro</td>
-                        <td>1/2 kg</td>
-                    </tr>
-                    <tr>
-                        <td>Onion </td>
-                        <td>3 large pieces</td>
-                    </tr>
-                    <tr>
-                        <td>Oil</td>
-                        <td>1/2 cup</td>
-                    </tr>
-                    <tr>
-                        <td>Garlic</td>
-                        <td>1 head</td>
-                    </tr>
-                    <tr>
-                        <td>Ground ginger</td>
-                        <td>1/2 teaspoon</td>
-                    </tr>
-                    <tr>
-                        <td>Black pepper</td>
-                        <td>1/2 teaspoon</td>
-                    </tr>
-                    <tr>
-                        <td>Water</td>
-                        <td> 3 cups</td>
-                    </tr>
-                    <tr>
-                        <td>Salt</td>
-                        <td>1 teaspoon</td>
-                    </tr>
-                </tbody>
-            </table>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Eritrean_Injera_with_stews.jpg" alt="Tsehi Derho served upon  Injera with other side dishes on a plate">
+        <ul>
+            <li>Time: 90 minutes</li>
+            <li>Serves: 12 persons</li>
+        </ul>
 
-            <p><strong>Preparation Steps</strong></p>
+        <p><strong>Ingredients:</strong></p>
 
-            <ol>
-                <li>Peel the onions and dice them in to small cubes (of 1/2 cm ). Peel and mash the <strong>garlic </strong> </li>
-                <li>Heat the <strong> oil </strong> in a pan and add the onions and garlic. Sauté the onion and garlic until become golden color.</li>
-                <li>Add the<strong>ginger,pepper and salt and 2 cups of water</strong>.Stir well,cover the pan and bring it to boil.</li>
-                <li>When the water boil, add the <strong>peas powder</strong> while stiring and then add the rest of the water(1 cup) and cover the pan and <em>let it cook for 40 minutes on a medium-low flame</em>.
-                    <li>When it rightly cooked it gives like a volcano eruption sounds with a "tiq-toq"sounds and then turn off the flame/stove and serve the "shiro" while hot on top of Injera with green peppers on the side of the plate.</li>
+        <table class="asbeza-derho">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
 
-            </ol>
+            <tbody>
+                <tr>
+                    <td>Whole Chicken</td>
+                    <td>1 piece</td>
+                </tr>
+                <tr>
+                    <td>Onion </td>
+                    <td>1 kg</td>
+                </tr>
+                <tr>
+                    <td>Oil</td>
+                    <td>2 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Tomato Paste</td>
+                    <td>400 g</td>
+                </tr>
+                <tr>
+                    <td>Mixed spices</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Habesha Peper powder/Berbere</td>
+                    <td>2 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Habesha Butter/Tesmi</td>
+                    <td>2 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Egg</td>
+                    <td>12 pieces</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <p><em>Source: <a href="https://en.wikipedia.org/wiki/Eritrean_cuisine#Common_foods_and_dishes"> Eritrean cuisine from wikipedia</a></em></p>
+        <p><strong>Preparation Steps</strong></p>
 
-            <p><em><a href="#top">Top</a></em></p>
+        <ol>
+            <li>Prepare a bigger pan and place it on a swithched on stove</li>
+            <li>Add <strong> diced onion (1/2 cm size) </strong>into the pan and keep stiring it so that the onion will be cooked in all sides with out getting burnedand.when the onion color turned into grey-yellowish then add the<strong> oil</strong> in
+                to the pan and <em>cook it unitl the onion turned into golden color</em>.</li>
+            <li>When the oil and onion are cooked,then add the <strong>habeha peper poweder/Berbere</strong> and keep stiring it untill all the added peper are mixed and become uniform with the ingredients. At this point taste the mix and the added peper
+                should be of good taste and smell not strong spicy and irritating smell.</li>
+            <li> Then add the<strong> tomato paste</strong> to the pan and stir it ot mixed well with the already cooked ingredients and <em>cook it untill the smell and taste of the tomato paste disappear</em>.</li>
+            <li>When the taste of tomato paste disappears , then added all the <strong>chicken parts (<em>the chicken should be washed and cut in to body part pieces before you put it into the cooking pan</em>) </strong>and stir it to mix it well with the
+                rest in the pan. Continue stiring the cooking pan so that all the ingredients mixa and cooked well.</li>
+            <li> After a while add the <strong>mixed spices</strong> of Oregano, Blackpeper and Thym in to the cooking pan and continue stiring to mix the added ingredients.</li>
+            <li><strong>After cooking for 1 hour then taste the tenderness of the chicken</strong> and if it is good upto your likes then <strong><em>add a pinch of salt and the habesha butter for extra taste</em></strong>.</li>
+            <li> Add the <strong>boiled eggs </strong>to the cooking pan and <strong><em>let them simmer with the cooked dish for 2 minutes </em></strong>and then take the cooking pan off the electric cooking stove and serve it on top of Injera laid on a plate.</li>
+        </ol>
+
+        <!--This Recipe of Eritrean traditional cuisine is very fast and easy to prepare -->
+
+        <h2 id="shiro"> 3.Tsebhi Shiro</h2>
+        <p><em><a href="#top">Top</a>, <a href="#qulwa-siga">Qulwa</a>, <a href="#derho">Tsebhi Derho</a></em></p>
+
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taita_and_shiro.jpg/500px-Taita_and_shiro.jpg" alt="Shiro served upon injera with green pepper and salad">
+        <ul>
+            <li>Time: 45 minutes</li>
+            <li>Serves: 8 persons</li>
+        </ul>
+
+        <p><strong>Ingredients:</strong></p>
+
+        <table class="asbeza-shiro">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>Chickpeas powder/shiro</td>
+                    <td>1/2 kg</td>
+                </tr>
+                <tr>
+                    <td>Onion </td>
+                    <td>3 large pieces</td>
+                </tr>
+                <tr>
+                    <td>Oil</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>1 head</td>
+                </tr>
+                <tr>
+                    <td>Ground ginger</td>
+                    <td>1/2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Black pepper</td>
+                    <td>1/2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Water</td>
+                    <td> 3 cups</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1 teaspoon</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><strong>Preparation Steps</strong></p>
+
+        <ol>
+            <li>Peel the onions and dice them in to small cubes (of 1/2 cm ). Peel and mash the <strong>garlic </strong> </li>
+            <li>Heat the <strong> oil </strong> in a pan and add the onions and garlic. Sauté the onion and garlic until become golden color.</li>
+            <li>Add the<strong>ginger,pepper and salt and 2 cups of water</strong>.Stir well,cover the pan and bring it to boil.</li>
+            <li>When the water boil, add the <strong>peas powder</strong> while stiring and then add the rest of the water(1 cup) and cover the pan and <em>let it cook for 40 minutes on a medium-low flame</em>.
+                <li>When it rightly cooked it gives like a volcano eruption sounds with a "tiq-toq"sounds and then turn off the flame/stove and serve the "shiro" while hot on top of Injera with green peppers on the side of the plate.</li>
+
+        </ol>
+
+        <p><em>Source: <a href="https://en.wikipedia.org/wiki/Eritrean_cuisine#Common_foods_and_dishes"> Eritrean cuisine from wikipedia</a></em></p>
+
+        <p><em><a href="#top">Top</a></em></p>
 
 </body>
 
 </html>
-
-<!--This source is found after submission <a href="https://web.archive.org/web/20021008004930/http://www.geocities.com/warsaisandiego/our_culture.htm"></a>-->
